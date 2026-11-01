@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "train": "HW1_data/train_clean.txt",
+    "dev_noisy": "HW1_data/dev_noisy.txt",
+    "dev_clean": "HW1_data/dev_clean.txt",
+    "test_noisy": "HW1_data/test_noisy.txt",
+    "outdir": "results"
+  },
+  "model": {
+    "ngram_order": 3,
+    "unk_cutoff": 1
+  },
+  "scorer": {
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": -0.2,
+    "tau": 0.02
+  }
+}

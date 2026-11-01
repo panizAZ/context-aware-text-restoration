@@ -1,0 +1,32 @@
+{
+  "no_change_baseline": {
+    "sentence_accuracy": 0.1756,
+    "token_accuracy": 0.8877070619006103,
+    "wer": 0.08042833032648548,
+    "cer": 0.014196493268989042,
+    "edit_precision": 0.0,
+    "edit_recall": 0.0,
+    "edit_F1": 0.0,
+    "overcorrection_rate": 0.0
+  },
+  "unigram_baseline": {
+    "sentence_accuracy": 0.3716,
+    "token_accuracy": 0.8922696890438826,
+    "wer": 0.07699470406797417,
+    "cer": 0.013915521006373634,
+    "edit_precision": 0.4513,
+    "edit_recall": 0.435,
+    "edit_F1": 0.443,
+    "overcorrection_rate": 0.407
+  },
+  "context_ngram_system": {
+    "sentence_accuracy": 0.3132,
+    "token_accuracy": 0.9027027027027027,
+    "wer": 0.06520980038410057,
+    "cer": 0.011411417332538067,
+    "edit_precision": 0.9282,
+    "edit_recall": 0.1404,
+    "edit_F1": 0.2439,
+    "overcorrection_rate": 0.0018
+  }
+}

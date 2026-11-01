@@ -1,0 +1,17 @@
+{
+  "student_name": "Paniz Azarnia",
+  "student_id": "40435097",
+  "ngram_order": 3,
+  "smoothing": "Kneser_Ney",
+  "tokenization": "Whitespace",
+  "case_handling": "case-flexible (lower/upper/capitalize variants)",
+  "unk_threshold": 1,
+  "abstain_threshold": 0.02,
+  "candidate_strategy": "edit_distance_1 + edit_distance_2 + dictionary",
+  "score_weights": {
+    "context": 1.0,
+    "prior": 1.0,
+    "edit_penalty": -0.2
+  },
+  "random_seed": "None"
+}
